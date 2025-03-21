@@ -84,7 +84,7 @@ export default function Home() {
   return (
     <div className="min-h-screen
       bg-gradient-to-t from-cyan-100 to-white
-      relative ">
+      relative overflow-y-hidden">
 
       <div className="w-full flex flex-col justify-center items-center
       space-y-0">
