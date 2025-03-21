@@ -103,7 +103,7 @@ export default function Home() {
               <Link className="flex items-center justify-center w-full
             gap-x-5 rounded-full p-5 backdrop-blur-sm bg-white/50 
             border border-solid border-neutral-600 border-r-[4px] border-b-[8px]
-            cursor-pointer text-center font-semibold"
+            cursor-pointer text-center text-neutral-600 font-semibold"
                 href={e.link}
                 key={e.id}
                 target="_blank"
@@ -119,7 +119,7 @@ export default function Home() {
       {[...Array(100)].map((_, index) => (
         <Circle
           x={Math.random() * 95}
-          // y={Math.floor(Math.random() * 400 + 100)}
+          y={Math.floor(Math.random() * 400 + 100)}
           key={index} classname={randomClasses()}
         />
       ))}
