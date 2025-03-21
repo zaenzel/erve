@@ -2,7 +2,7 @@ import Circle from "@/components/animate/Circle";
 import Image from "next/image";
 import Link from "next/link";
 
-export const links = [
+const links = [
   {
     id: 3,
     name: "Tiktok Shop",
